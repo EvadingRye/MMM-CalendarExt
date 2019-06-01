@@ -3,10 +3,10 @@ var DEFAULT_CONFIG = {
 		useProfileConfig: 0,
 		startProfile: "",
 		showEmptyView: 1,
-		show: ["daily"],
+		show: ["month"],
 		fullDayEventLocalize: 1,
 		redrawInterval: 30*60*1000, //minimum 60000
-		locale: null,
+		locale: en-gb,
 	},
 	views: {
 		daily: {
@@ -78,10 +78,10 @@ var DEFAULT_CONFIG = {
 		symbolPatternWhere: ["title"],
 	},
 	defaultCalendar: {
-		name: null,
+		name: "Calendar",
 		profiles: [],
-		views: [],
-		styleName: "",
+		views: ['month'],
+		styleName: "style1",
 		replaceTitle: [],
 		classPattern: [],
 		classPatternWhere: ["title"],
@@ -92,7 +92,7 @@ var DEFAULT_CONFIG = {
 		maxEntries:50,
 		maxDays:180,
 		interval: 30*60*1000,
-		url: null,
+		url: //PRIVATE ICAL LINK HERE***,
 		auth: {
 			user:"",
 			pass:"",
